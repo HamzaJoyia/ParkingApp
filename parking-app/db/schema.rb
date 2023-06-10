@@ -82,7 +82,6 @@ ActiveRecord::Schema.define(version: 2023_06_10_165039) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "title"
-    t.boolean "available"
   end
 
   add_foreign_key "reservations", "customers"
